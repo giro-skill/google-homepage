@@ -1,0 +1,42 @@
+.header{
+    color: black;
+    font-family: arial, sans-serif;
+    opacity: 0.75;
+    font-size: 13px;
+    display: inline-block;
+}
+.header:hover{
+    text-decoration: underline;
+}
+.sign{
+    color: white;
+    background:rgb(67, 135, 253);
+    position: absolute;
+    top: 15px;
+    left: 1130px;
+    font-size: 13px;
+    font-family: arial, sans-serif;
+    font-weight: bold;
+    padding: 12px 12px 12px 12px;
+    border: rgb(67, 135, 253);
+    border-radius: 2px;
+}
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    margin-top: 100px;
+}
+.search{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 50%;
+    padding: 15px 10px 15px 10px;
+    border-radius: 30px;
+    opacity: 50%;
+    background: url(search.png) no-repeat scroll 10px 10px;
+    opacity: 50%;
+}
